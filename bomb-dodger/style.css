@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Share+Tech+Mono&display=swap');
+
+* {
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.cell {
+	width: 30px;
+	height: 30px;
+/*	border: 1px solid #fafafa;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #455a64;
+	margin: 1px;
+	transition: background-color 0.2s;
+}
+
+.bombGrid, .gameBoard {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin: 20px;
+/*	border: 1px solid #fafafa;*/
+
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #263238;
+}
+
+h1 {
+	color: #fafafa;
+}
+
+.controls {
+	width: 320px;
+	color: #fafafa;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px;
+	margin-top: 0px;
+}
+
+p {
+	color: #fafafa;
+}

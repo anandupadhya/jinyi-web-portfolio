@@ -1,0 +1,44 @@
+* {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#container {
+	display: flex;
+	margin-top: 24px;
+}
+
+#wordBank {
+	margin-left: 24px;
+	font-size: 20px;
+}
+
+.cell {
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	border: 1px solid lightgray;
+	cursor: default;
+	user-select: none;
+}
+
+#board {
+	display: grid;
+	grid-template-rows: repeat(22, 1fr);
+	grid-template-columns: repeat(22, 1fr);
+}
+
+.found {
+	text-decoration: line-through;
+}

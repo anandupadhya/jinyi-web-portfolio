@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bomb Dodger</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Bomb Dodger</h1>
+
+	<p>Total Bombs: <span class="numBombsDisplay">15</span></p>
+	<p>Remaining Safe Locations: <span class="remainingDisplay">85</span></p>
+
+	<div class="gameBoard"></div>
+
+	<button class="hintBtn">Hint (3)</button>
+
+	<p>Time Elapsed: <span class="timeDisplay">0</span> seconds</p>
+
+	<div class="controls">
+		<div>Rows</div>
+		<select class="rowsSelect">
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10" selected>10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+		</select>
+		<div>Columns</div>
+		<select class="colsSelect">
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10" selected>10</option>
+			<option value="15">15</option>
+			<option value="20">20</option>
+			<option value="25">25</option>
+			<option value="30">30</option>
+			<option value="35">35</option>
+			<option value="40">40</option>
+			<option value="45">45</option>
+			<option value="50">50</option>
+		</select>
+		<div>Bombs %</div>
+		<select class="percentBombsSelect">
+			<option value="0.10">10%</option>
+			<option value="0.15" selected>15%</option>
+			<option value="0.20">20%</option>
+			<option value="0.25">25%</option>
+			<option value="0.30">30%</option>
+		</select>
+	</div>
+
+	<button class="resetBtn">Reset</button>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
