@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Bree Serif', serif;
+}
+
+
+body {
+	background-color: #1A1A2E;
+}
+
+h1 {
+	font-family: 'Monoton', cursive;
+	font-size: 72px;
+	font-weight: 400;
+	text-align: center;
+	color: #E94560;
+	margin: 20px;
+}
+
+.roundDisplay {
+	text-align: center;
+	font-size: 36px;
+	color: whitesmoke;
+	margin-top: 20px;
+}
+
+.scoringCardsDisplay, .winnerDisplay, .nonScoringCardsDisplay, .rulesDisplay {
+	background-color: skyblue;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	width: 600px;
+	border-radius: 8px;
+	margin: auto;
+	margin-top: 20px;
+	height: 200px;
+}
+.rulesDisplay {
+	height: auto;
+}
+
+.rulesDisplay p {
+	padding: 0px 15px;
+	margin-bottom: 15px;
+/*	text-align: center;*/
+}
+
+.winnerDisplay {
+	display: none;
+}
+
+.scoringCardsDisplay div, .nonScoringCardsDisplay div {
+	display: flex;
+}
+
+.card {
+	background-color: #E94560;
+	width: 60px;
+	height: 80px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 36px;
+	margin: 10px;
+	color: whitesmoke;
+}
+
+.pCard {
+	width: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 10px;
+}
+
+.scoringCardsDisplay h3,  .winnerDisplay h3, .nonScoringCardsDisplay h3, .rulesDisplay h3{
+	font-size: 24px;
+	margin: 10px;
+}
+
+.winnerDisplay p{
+	font-size: 72px;
+	color: #1A1A2E;
+}
+
+
+.board {
+	background-color: skyblue;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 10px;
+	width: 600px;
+	border-radius: 8px;
+	margin: auto;
+	margin-top: 20px;
+	height: 150px;
+}
+
+.left {
+	display: flex;
+	flex-direction: column;
+}
+
+.right {
+	display: flex;
+	flex-direction: row;
+}
+
+.player1Score, .player2Score {
+	font-size: 42px;
+	text-align: center;
+}
+
+input {
+	all: unset;
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+	border: none;
+    background-color: none;
+    outline: none;
+}
+
+input::placeholder {
+	font-size: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

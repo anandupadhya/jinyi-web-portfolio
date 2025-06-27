@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pixel Art Editor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="leftCol">
+			<h1>🖌️ Pixel Art Editor 🎨</h1>
+
+			<p>W: <span class="widthDisplay">20</span> H: <span class="heightDisplay">15</span></p>
+
+			<div>
+				<input type="text" class="nameInput" placeholder="Name to save">
+				<button class="saveBtn">Save</button>
+				<div class="savedImagesLinks"></div>
+			</div>
+
+			<button class="copyBtn">Copy</button>
+			<button class="eyeDropperBtn">Pick Color</button>
+
+			<button class="zoomInBtn">+</button>
+			<button class="zoomOutBtn">-</button>
+
+			<div class="colorPicker">
+				<div class="currColorDisplay"></div>
+				<div class="colorBoxes"></div>
+				<div class="hexColor">
+					<input type="text" class="hexInput" placeholder="Enter HEX color code">
+					<button class="hexBtn">Set</button>
+				</div>
+				<div class="rgbColor">
+					<input type="text" class="rInput" placeholder="R">
+					<input type="text" class="gInput" placeholder="G">
+					<input type="text" class="bInput" placeholder="B">
+					<button class="rgbBtn">Set</button>
+				</div>
+				<!-- <a href="https://htmlcolorcodes.com/">HTML Color Codes</a> -->
+				<button class="eraserBtn">Eraser</button>
+				<button class="fillAllBtn">Fill All</button>
+				<button class="rectFillBtn">Rectangle Fill</button>
+				<button class="borderFillBtn">Border Fill</button>
+			</div>
+
+			<div class="imageFlip">
+				<button class="flipHBtn">Flip Horizontal</button>
+				<button class="flipVBtn">Flip Vertical</button>
+			</div>
+
+			<div class="imageRotate">
+				<button class="rotateLBtn">Rotate Left</button>
+				<button class="rotateRBtn">Rotate Right</button>
+			</div>
+
+			<button class="toggleGridBtn">Grid Off</button>
+
+			<div class="undoRedo">
+				<button class="undoBtn">Undo</button>
+				<button class="redoBtn">Redo</button>
+			</div>
+
+			<div>
+				<button class="addRowTopBtn">Add Row Top</button>
+				<button class="addRowBottomBtn">Add Row Bottom</button>
+				<button class="addColLeftBtn">Add Column Left</button>
+				<button class="addColRightBtn">Add Column Right</button>
+			</div>
+
+			<div>
+				<button class="delRowTopBtn">Del Row Top</button>
+				<button class="delRowBottomBtn">Del Row Bottom</button>
+				<button class="delColLeftBtn">Del Column Left</button>
+				<button class="delColRightBtn">Del Column Right</button>
+			</div>
+
+			<div>
+				<button class="x2Btn">2X</button>
+				<button class="x3Btn">3X</button>
+				<button class="x4Btn">4X</button>
+				<button class="x5Btn">5X</button>
+			</div>
+
+			<div class="controls">
+				<div>Rows</div>
+				<select class="rowsSelect">
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="15">15</option>
+					<option value="20" selected>20</option>
+					<option value="25">25</option>
+					<option value="30">30</option>
+					<option value="35">35</option>
+					<option value="40">40</option>
+					<option value="45">45</option>
+					<option value="50">50</option>
+				</select>
+				<div>Columns</div>
+				<select class="colsSelect">
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="15">15</option>
+					<option value="20" selected>20</option>
+					<option value="25">25</option>
+					<option value="30">30</option>
+					<option value="35">35</option>
+					<option value="40">40</option>
+					<option value="45">45</option>
+					<option value="50">50</option>
+				</select>
+			</div>
+
+			
+
+			<button class="resetBtn">Reset</button>
+		</div>
+
+		<div class="rightCol">
+			<div class="canvas"></div>		
+		</div>
+	</div>
+
+	<script type="text/javascript" src="elements.js"></script>
+	<script type="text/javascript" src="enlarge.js"></script>
+	<script type="text/javascript" src="canvasSize.js"></script>
+	<script type="text/javascript" src="rotateFlip.js"></script>
+	<script type="text/javascript" src="savedImages.js"></script>
+	<script type="text/javascript" src="colors.js"></script>
+	<script type="text/javascript" src="fill.js"></script>
+	<script type="text/javascript" src="utils.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	
+	
+</body>
+</html>
+
+
+
+
+
+
+
+

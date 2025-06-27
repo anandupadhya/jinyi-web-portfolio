@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.font.im/css?family=Monoton" rel="stylesheet">
+	<link href="https://fonts.font.im/css?family=Bree+Serif" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Mystery Cards</title>
+</head>
+<body>
+	<h1>Mystery Cards</h1>
+
+	
+
+	<div class="winnerDisplay">
+		<h3>Winner</h3>
+		<p>- - - - -</p>
+	</div>
+
+	<div class="board">
+		<div class="left">
+			<p class="player1Score">0</p>
+			<input class="player1Name" type="text" placeholder="Enter name">
+		</div>
+		<div class="right">
+			<div class="card card1">+</div>
+			<div class="card card1">+</div>
+			<div class="card card1">+</div>
+			<div class="card card1">+</div>
+			<div class="card card1">+</div>
+		</div>
+	</div>
+
+	<div class="board">
+		<div class="left">
+			<p class="player2Score">0</p>
+			<input class="player2Name" type="text" placeholder="Enter name">
+		</div>
+		<div class="right">
+			<div class="card card2">+</div>
+			<div class="card card2">+</div>
+			<div class="card card2">+</div>
+			<div class="card card2">+</div>
+			<div class="card card2">+</div>
+		</div>
+	</div>
+
+	<p class="roundDisplay">Round <span class="currRoundDisplay">1</span> of 8</p>
+
+	<div class="scoringCardsDisplay">
+		<h3>Scoring Cards</h3>
+		<div></div>
+		<div class="percentDisplay1"></div>
+	</div>
+
+	<div class="nonScoringCardsDisplay">
+		<h3>Non-scoring Cards</h3>
+		<div></div>
+		<div class="percentDisplay2"></div>
+	</div>
+
+	<div class="rulesDisplay">
+		<h3>Rules</h3>
+		<div>
+			<p>There are 80 mystery cards in total. They are numbered 1 to 10. There are 8 of each number. Only half of the numbers are scoring cards. The game is played in 8 rounds. Each round, each player can pick 5 cards.</p>	
+			<p>Don't forget to enter your name below the score.</p>
+
+			<p>If you get a scoring card, the number shown on the card will be added to your score. This card will be pink. If it's a non-scoring card you won't get any points and it will be black.</p>
+
+			<p>Leading score is shown in green and the other in red. When both players have equal scores, they are shown in yellow.</p>
+
+			<p>The probability of getting each card is updated every time a card is picked. The probability is shown under the cards.</p>
+
+			<p>After the last round, the player with the highest score becomes the winner.</p>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,73 @@
+.cell {
+	width: 60px;
+	height: 60px;
+	background-color: #F9CB8E;
+	margin: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 42px;
+	color: #FEFEFE;
+/*	transition: background-color 0.2s;*/
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	background-color: #FEFEFE;
+	padding: 20px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #8592B2;
+}
+
+* {
+	font-family: "Barlow Condensed", sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+}
+
+h1 {
+	font-size: 60px;
+	color: #FEFEFE;
+	margin: 12px;
+}
+
+button {
+	margin-top: 18px;
+}
+
+p {
+	font-size: 24px;
+	color: #FEFEFE;
+}
+
+.winDisplay {
+	font-size: 36px;
+	color: #FEFEFE;
+	margin: 12px;
+	display: none;
+}
+
+.timeDisplay {
+	margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
