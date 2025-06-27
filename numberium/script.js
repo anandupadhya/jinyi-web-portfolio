@@ -5,7 +5,7 @@ const numLevelsDisplay = document.querySelector(".numLevelsDisplay")
 const winDisplay = document.querySelector(".winDisplay")
 const timeDisplay = document.querySelector(".timeDisplay")
 
-let currLevel = levels.length - 1
+let currLevel = 1
 currLevelDisplay.textContent = currLevel
 let numLevels = levels.length - 1
 numLevelsDisplay.textContent = numLevels
